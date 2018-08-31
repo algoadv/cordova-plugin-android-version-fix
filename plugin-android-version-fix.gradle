@@ -7,11 +7,11 @@ repositories{
 
 def PLUGIN_NAME = "cordova-plugin-android-version-fix"
 
-ext {PLAY_SERVICES_VERSION = "16.0.1"}
+ext {PLAY_SERVICES_VERSION = "+"}
 
 // List of libs to search for.
 def LIBS = [
-    'com.google.android.gms'
+    'com.google.android.gms',
 ]
 
 println("+-----------------------------------------------------------------");
