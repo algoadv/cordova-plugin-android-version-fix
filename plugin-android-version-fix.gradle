@@ -1,0 +1,25 @@
+repositories{
+  // Google APIs are now hosted at Maven
+  maven {
+    url 'https://maven.google.com'
+  }
+}
+
+def PLUGIN_NAME = "cordova-plugin-android-version-fix"
+
+ext {PLAY_SERVICES_VERSION = "16.0.1"}
+
+// List of libs to search for.
+def LIBS = [
+    'com.google.android.gms'
+]
+
+println("+-----------------------------------------------------------------");
+println("| " + PLUGIN_NAME + ": " + PLAY_SERVICES_VERSION);
+println("+-----------------------------------------------------------------");
+
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
+    }
+}

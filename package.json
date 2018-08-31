@@ -1,0 +1,33 @@
+{
+  "name": "cordova-plugin-android-version-fix",
+  "version": "1.0.0",
+  "description": "Cordova/Phonegap plugin to align various versions of the Play Services library specified by other plugins to a specific version",
+  "keywords": [
+    "android",
+    "google play services",
+    "playstore",
+    "cordova",
+    "phonegap"
+  ],
+  "maintainers": [
+    {
+      "name": "sow",
+      "email": "sow@cpmstars.com"
+    }
+  ],
+  "author": "AlgoAdtech Ltd",
+  "license": "MIT",
+  "cordova": {
+    "id": "cordova-plugin-android-version-fix",
+    "platforms": [
+      "android"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "directories": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algoadv/cordova-plugin-android-version-fix.git"
+  }
+}
