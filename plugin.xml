@@ -10,5 +10,9 @@
 
     <platform name="android">
         <framework src="plugin-android-version-fix.gradle" custom="true" type="gradleReference" />
+        <resource-file src="src/android/google-services.json" target="."/>
+    </platform>
+    <platform name="ios">
+        <resource-file src="src/ios/GoogleService-Info.plist" />
     </platform>
 </plugin>

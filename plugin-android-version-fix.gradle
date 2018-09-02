@@ -1,4 +1,4 @@
-def PLUGIN_NAME = "cordova-plugin-android-version-fix"
+def PLUGIN_NAME = "cordova-plugin-zandroid-version-fix"
 
 ext {PLAY_SERVICES_VERSION = "+"}
 

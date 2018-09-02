@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>164120619712-dgt8ok5fklak08sau3e34gjfhsnqb1np.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.164120619712-dgt8ok5fklak08sau3e34gjfhsnqb1np</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_IRHRrjlXnNDrwI_Lw08ov6Kc5dHTyw8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>164120619712</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bidderlo.algoadtech</string>
+	<key>PROJECT_ID</key>
+	<string>bidderlo-5fe38</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bidderlo-5fe38.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:164120619712:ios:d209b4511852f31e</string>
+	<key>DATABASE_URL</key>
+	<string>https://bidderlo-5fe38.firebaseio.com</string>
+</dict>
+</plist>
