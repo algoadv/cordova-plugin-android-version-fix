@@ -1,17 +1,17 @@
-repositories {
-    mavenCentral()
-    maven { url 'https://maven.fabric.io/public' }
-    maven { url 'https://maven.google.com' }
-    jcenter()
-}
+// repositories {
+//     mavenCentral()
+//     maven { url 'https://maven.fabric.io/public' }
+//     maven { url 'https://maven.google.com' }
+//     jcenter()
+// }
 
-dependencies {
-    classpath 'io.fabric.tools:gradle:1.25.4'
-    classpath 'com.google.gms:google-services:+'
-}
+// dependencies {
+//     classpath 'io.fabric.tools:gradle:1.25.4'
+//     classpath 'com.google.gms:google-services:+'
+// }
 
 apply plugin: 'com.google.gms.google-services'
-apply plugin: 'io.fabric'
+//apply plugin: 'io.fabric'
 
 def PLUGIN_NAME = "cordova-plugin-android-version-fix"
 
