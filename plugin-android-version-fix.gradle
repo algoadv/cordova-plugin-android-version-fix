@@ -5,6 +5,8 @@ repositories{
   }
 }
 
+apply plugin: 'com.google.gms.google-services'
+
 def PLUGIN_NAME = "cordova-plugin-android-version-fix"
 
 ext {PLAY_SERVICES_VERSION = "+"}
