@@ -1,22 +1,3 @@
-repositories{
-  // Google APIs are now hosted at Maven
-  maven {
-    url 'https://maven.google.com'
-  }
-}
-
-buildscript {
-    repositories {
-        jcenter()
-        maven { url 'https://maven.google.com' }
-    }
-    dependencies {
-        classpath 'com.google.gms:google-services:+'
-    }
-}
-
-apply plugin: 'com.google.gms.google-services'
-
 def PLUGIN_NAME = "cordova-plugin-android-version-fix"
 
 ext {PLAY_SERVICES_VERSION = "+"}
@@ -35,3 +16,5 @@ configurations.all {
         if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
     }
 }
+
+apply plugin: 'com.google.gms.google-services'
