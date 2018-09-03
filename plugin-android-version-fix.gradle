@@ -1,3 +1,9 @@
+buildscript {
+    dependencies {
+        classpath 'com.google.gms:google-services:4.0.1'
+    }
+}
+
 def PLUGIN_NAME = "cordova-plugin-zandroid-version-fix"
 
 ext {PLAY_SERVICES_VERSION = "+"}
