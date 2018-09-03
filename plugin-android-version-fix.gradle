@@ -26,5 +26,6 @@ configurations.all {
         if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
     }
 }
-
+// buildscript
+println("Executing Task: " + project.gradle.startParameter.taskNames);
 apply plugin: 'com.google.gms.google-services'
