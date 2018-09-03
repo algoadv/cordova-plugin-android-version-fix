@@ -11,10 +11,10 @@ println("+-----------------------------------------------------------------");
 println("| " + PLUGIN_NAME + ": " + PLAY_SERVICES_VERSION);
 println("+-----------------------------------------------------------------");
 
-configurations.all {
-    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
-        if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
-    }
-}
+// configurations.all {
+//     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+//         if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
+//     }
+// }
 
 apply plugin: 'com.google.gms.google-services'
