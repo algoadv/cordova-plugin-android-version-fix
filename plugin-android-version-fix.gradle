@@ -19,11 +19,14 @@ configurations.all {
 
 // buildscript
 println("Executing Task: " + project.gradle.startParameter.taskNames);
-repositories {
-    jcenter()
-    maven { url 'https://maven.google.com' }
+buildscript {
+    repositories {
+        mavenCentral()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:+'
+    }
 }
-dependencies {
-    classpath 'com.google.gms:google-services:+'
-}
+
 apply plugin: 'com.google.gms.google-services'
