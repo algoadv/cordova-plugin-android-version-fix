@@ -1,17 +1,22 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-android-version-fix" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-plugin-android-version-fix" version="0.0.1" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
     <name>Google Play Services and Firebase Versions fixes</name>
     <description>Cordova/Phonegap plugin to align various versions of the Play Services library specified by other plugins to a specific version</description>
     <author>Algo AdTech Ltd</author>
     <engines>
-      <engine name="cordova" version=">=6.2.0" />
+        <engine name="cordova" version=">=6.2.0" />
         <engine name="cordova-android" version=">=6.0.0" />
     </engines>
 
+    
+
     <platform name="android">
         <framework src="plugin-android-version-fix.gradle" custom="true" type="gradleReference" />
+        <resource-file src="src/android/google-services.json" target="/app/google-services.json" />
     </platform>
     <platform name="ios">
-    
+
     </platform>
 </plugin>

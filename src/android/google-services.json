@@ -1,27 +1,58 @@
 {
   "project_info": {
-    "project_number": "164120619712",
-    "firebase_url": "https://bidderlo-5fe38.firebaseio.com",
-    "project_id": "bidderlo-5fe38",
-    "storage_bucket": "bidderlo-5fe38.appspot.com"
+    "project_number": "352830106263",
+    "firebase_url": "https://testfirebasecore.firebaseio.com",
+    "project_id": "testfirebasecore",
+    "storage_bucket": "testfirebasecore.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:164120619712:android:d209b4511852f31e",
+        "mobilesdk_app_id": "1:352830106263:android:dd3ab7f3b244ad6d",
         "android_client_info": {
-          "package_name": "com.bidderlo.algoadtech"
+          "package_name": "com.test.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "164120619712-g0tqk3p7b25a6d0596paeeu95g87631f.apps.googleusercontent.com",
+          "client_id": "352830106263-p5u777j5ua9qg3lcdvnlsaoqku1d954e.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCHr8xASM79T_CENJWuHoh0I5xodZnYD_U"
+          "current_key": "AIzaSyBepsAk87yfzwQ9D5NZjvubZGY5QNLnjX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:352830106263:android:e12270e4992b69a7",
+        "android_client_info": {
+          "package_name": "com.test.appa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "352830106263-p5u777j5ua9qg3lcdvnlsaoqku1d954e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBepsAk87yfzwQ9D5NZjvubZGY5QNLnjX0"
         }
       ],
       "services": {

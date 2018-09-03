@@ -1,37 +1,41 @@
-def PLUGIN_NAME = "cordova-plugin-android-version-fix"
+// def PLUGIN_NAME = "cordova-plugin-android-version-fix"
 
-ext {PLAY_SERVICES_VERSION = "+"}
+// ext {PLAY_SERVICES_VERSION = "+"}
 
-// List of libs to search for.
-def LIBS = [
-    'com.google.android.gms',
-]
+// // List of libs to search for.
+// def LIBS = [
+//     'com.google.android.gms',
+// ]
 
-println("+--------------------DIS---------------------------------------------");
-println("| " + PLUGIN_NAME + ": " + PLAY_SERVICES_VERSION);
-println("+-----------------------------------------------------------------");
+// println("+--------------------DIS---------------------------------------------");
+// println("| " + PLUGIN_NAME + ": " + PLAY_SERVICES_VERSION);
+// println("+-----------------------------------------------------------------");
 
-// configurations.all {
-//     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
-//         if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
+// // configurations.all {
+// //     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+// //         if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
+// //     }
+// // }
+// println("+----buildscript");
+// buildscript {
+//     repositories {
+//         mavenCentral()
+//         maven { url 'https://maven.fabric.io/public' }
+//         maven { url 'https://maven.google.com' }
+//         maven { url 'https://mvnrepository.com/artifact' }
+//         maven { url 'https://dl.google.com/dl/android/maven2' }
+        
+//     }
+//     dependencies {
+//         //classpath 'io.fabric.tools:gradle:1.25.4'
+//         classpath 'com.google.gms:google-services:+'
 //     }
 // }
-println("+----buildscript");
-buildscript {
-    repositories {
-        mavenCentral()
-        maven { url 'https://maven.fabric.io/public' }
-        maven { url 'https://maven.google.com' }
-        maven { url 'https://mvnrepository.com/artifact' }
-        maven { url 'https://dl.google.com/dl/android/maven2' }
-        
-    }
-    dependencies {
-        //classpath 'io.fabric.tools:gradle:1.25.4'
-        classpath 'com.google.gms:google-services:3.0.0'
-    }
+// println("+----io.fabric");
+// //apply plugin: 'io.fabric'
+dependencies {
+  // Add this line
+  implementation 'com.google.firebase:firebase-core:16.0.1'
 }
-println("+----io.fabric");
-//apply plugin: 'io.fabric'
-println("+----com.google.gms.google-services");
+
 apply plugin: 'com.google.gms.google-services'
