@@ -16,3 +16,12 @@ configurations.all {
         if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
     }
 }
+
+android {
+    defaultConfig {
+        multiDexEnabled = true
+    }
+    dexOptions {
+        jumboMode true
+    }
+}
