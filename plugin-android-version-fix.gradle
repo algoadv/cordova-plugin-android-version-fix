@@ -17,6 +17,10 @@ configurations.all {
     }
 }
 
+println("+-----------------------------------------------------------------");
+println("| Enableing MultiDex For Android ");
+println("+-----------------------------------------------------------------");
+
 android {
     defaultConfig {
         multiDexEnabled = true
