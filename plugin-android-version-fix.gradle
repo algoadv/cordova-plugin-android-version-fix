@@ -18,7 +18,7 @@ configurations.all {
         if (details.requested.name == 'firebase-messaging') { details.useVersion '17.6.0' }
         if (details.requested.name == 'firebase-config') { details.useVersion '16.4.1' }
         if (details.requested.name == 'firebase-perf') { details.useVersion '16.2.4' }
-        if (details.requested.name == 'firebase-dynamic-links') { details.useVersion '16.0.0' }
+        if (details.requested.name == 'firebase-dynamic-links') { details.useVersion '17.0.0' }
     }
 }
 
