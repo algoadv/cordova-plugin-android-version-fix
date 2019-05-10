@@ -15,7 +15,7 @@ configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
         if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
         if (details.requested.name == 'firebase-core') { details.useVersion '16.0.8' }
-        if (details.requested.name == 'firebase-messaging') { details.useVersion '17.5.0' }
+        if (details.requested.name == 'firebase-messaging') { details.useVersion '17.6.0' }
         if (details.requested.name == 'firebase-config') { details.useVersion '16.4.1' }
         if (details.requested.name == 'firebase-perf') { details.useVersion '16.2.4' }
         if (details.requested.name == 'firebase-dynamic-links') { details.useVersion '16.0.0' }
