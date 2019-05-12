@@ -31,7 +31,6 @@ android {
         multiDexEnabled = true
     }
     dexOptions {
-        preDexLibraries = false
         jumboMode true
     }
 }
