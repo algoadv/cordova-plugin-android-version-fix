@@ -14,6 +14,7 @@ println("+-----------------------------------------------------------------");
 configurations.all {
     resolutionStrategy.eachDependency { DependencyResolveDetails details ->
         if (details.requested.group in LIBS) { details.useVersion PLAY_SERVICES_VERSION }
+        if (details.requested.group == 'com.google.gms' && details.requested.name == 'google-services') { details.useVersion PLAY_SERVICES_VERSION }
         if (details.requested.name == 'firebase-core') { details.useVersion '16.0.8' }
         if (details.requested.name == 'firebase-messaging') { details.useVersion '17.6.0' }
         if (details.requested.name == 'firebase-config') { details.useVersion '16.4.1' }
