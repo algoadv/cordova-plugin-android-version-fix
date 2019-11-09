@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-android-version-fix",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Cordova/Phonegap plugin to align various versions of the Play Services library specified by other plugins to a specific version",
   "keywords": [
     "android",
